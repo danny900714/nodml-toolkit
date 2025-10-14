@@ -1,0 +1,359 @@
+[
+    {
+        "name": "黃靖雅",
+        "department": "人民團體科"
+    },
+    {
+        "name": "游世玲",
+        "department": "人民團體科",
+        "abbreviations": ["世"]
+    },
+    {
+        "name": "趙美華",
+        "department": "人民團體科",
+        "abbreviations": ["華"]
+    },
+    {
+        "name": "葉雅琪",
+        "department": "人民團體科",
+        "abbreviations": ["雅"]
+    },
+    {
+        "name": "鄭郁璇",
+        "department": "人民團體科",
+        "abbreviations": ["郁"]
+    },
+    {
+        "name": "陳慧珍",
+        "department": "人民團體科",
+        "abbreviations": ["珍"]
+    },
+    {
+        "name": "林家綺",
+        "department": "人民團體科"
+    },
+    {
+        "name": "陳証琪",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "周詠淳",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "林政德",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "吳啟玄",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "阮曉蕙",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "林沂鋐",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "李恩純",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "楊翊宣",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "曾琪富",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "陳政鋒",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "吳怡璇",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "陳奕菡",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "王麗娟",
+        "department": "社會工作及家庭福利科"
+    },
+    {
+        "name": "何欣潔",
+        "department": "社會救助科",
+        "abbreviations": ["欣"]
+    },
+    {
+        "name": "翁芯瑜",
+        "department": "社會救助科"
+    },
+    {
+        "name": "陳琬婷",
+        "department": "社會救助科"
+    },
+    {
+        "name": "吳涓琳",
+        "department": "社會救助科"
+    },
+    {
+        "name": "洪筱涵",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "黃文文",
+        "department": "身心障礙福利科",
+        "abbreviations": ["文"]
+    },
+    {
+        "name": "劉容孜",
+        "department": "身心障礙福利科",
+        "abbreviations": ["容"]
+    },
+    {
+        "name": "黃聖峰",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "林春杏",
+        "department": "身心障礙福利科",
+        "abbreviations": ["杏"]
+    },
+    {
+        "name": "黃采潓",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "鍾惠翎",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "李宥宸",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "陳思樺",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "謝孟珊",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "邱馨儀",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "李耀煌",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "黃恩達",
+        "department": "身心障礙福利科",
+        "abbreviations": ["恩達"]
+    },
+    {
+        "name": "趙之琪",
+        "department": "身心障礙福利科",
+        "abbreviations": ["琪"]
+    },
+    {
+        "name": "余孟涵",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "黃譯萱",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "林姿媛",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "蕭麗琴",
+        "department": "身心障礙福利科",
+        "abbreviations": ["琴"]
+    },
+    {
+        "name": "陳淑雲",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "劉姵彣",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "沈明毅",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "龍家儀",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "劉季芃",
+        "department": "身心障礙福利科"
+    },
+    {
+        "name": "鄭妙君",
+        "department": "老人福利科"
+    },
+    {
+        "name": "陳逸珊",
+        "department": "老人福利科",
+        "abbreviations": ["逸"]
+    },
+    {
+        "name": "孫美鈴",
+        "department": "老人福利科",
+        "abbreviations": ["美鈴"]
+    },
+    {
+        "name": "王靖雅",
+        "department": "老人福利科",
+        "abbreviations": ["靖"]
+    },
+    {
+        "name": "謝富琪",
+        "department": "老人福利科"
+    },
+    {
+        "name": "姜佩吟",
+        "department": "老人福利科"
+    },
+    {
+        "name": "王詩婷",
+        "department": "老人福利科",
+        "abbreviations": ["詩"]
+    },
+    {
+        "name": "蘇厚有",
+        "department": "老人福利科",
+        "abbreviations": ["厚"]
+    },
+    {
+        "name": "林晏禎",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "廖威揚",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "王祺文",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "許文馨",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "蔡亞庭",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "賴瓊文",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "張佳惠",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "沈于瑄",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "陳文政",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "吳建璋",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "楊庭瑜",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "林尚葳",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "李語慈",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "徐佳怡",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "陳琬蓁",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "蘇柏毅",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "陳玅芬",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "曾沛瑄",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "沈祚瑋",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "黃莉婷",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "劉月瑛",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "黃雅慧",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "蔡佳錚",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "汪采伶",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "蘇霈瑄",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "林育丞",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "鄭楓樺",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "謝佳蓉",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "蕭敬耀",
+        "department": "家庭暴力暨性侵害防治中心"
+    },
+    {
+        "name": "林君如",
+        "department": "家庭暴力暨性侵害防治中心"
+    }
+]
