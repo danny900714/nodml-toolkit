@@ -27,20 +27,6 @@ function handleBodyChange(records: MutationRecord[], _observer: MutationObserver
 function onInsertMailDocModalOpen(element: HTMLDivElement) {
     const employees = loadEmpoyeeData();
 
-    // Record and input the correct number from barcode scanner regardless of the language of input method.
-    const numberInput = element.querySelector('#DocMailNumber')! as HTMLInputElement;
-    let pendingNumber = '';
-    numberInput.addEventListener('keydown', (e) => {
-        const event = e as KeyboardEvent;
-        if (codeNumberMap.has(event.code)) {
-            pendingNumber += codeNumberMap.get(event.code)!;
-        } else if (event.code === 'Enter') {
-            const target = event.target as HTMLInputElement;
-            target.value = pendingNumber;
-            pendingNumber = '';
-        }
-    });
-
     // Auto select department based on the name in comment field
     const commentInput = element.querySelector('#Comment')! as HTMLInputElement;
     commentInput.addEventListener('input', (e) => {
@@ -58,16 +44,13 @@ function onInsertMailDocModalOpen(element: HTMLDivElement) {
             if (chineseInput.length >= 3 && employees.has(chineseInput)) {
                 const employee = employees.get(chineseInput)!;
                 
-                // Select the department based on the employee's department
-                // const departmentSelect = element.querySelector('#CaseHandlingDepartmentIdRecipient')! as HTMLSelectElement;
-                // const departmentField = element.querySelector('#InsertMailDoc span[aria-owns="CaseHandlingDepartmentIdRecipient_listbox"]') as HTMLSpanElement;
-                // departmentField.click();
-                const modalItemList = document.querySelectorAll('#CaseHandlingDepartmentIdRecipient_listbox')[2];
-                const modalItems = modalItemList.querySelectorAll('li');
+                // Select all the department fields based on the employee's department.
+                // Since there are multiple department selection lists that are hard to differentiate from each other,
+                // we then click all the matched list item.
+                const modalItems = document.querySelectorAll('#CaseHandlingDepartmentIdRecipient_listbox[aria-live="polite"] > li');
                 for (const modalItem of modalItems) {
                     if (modalItem.textContent === `(社)${employee.department}`) {
                         (modalItem as HTMLLIElement).click();
-                        break;
                     }
                 }
             }
