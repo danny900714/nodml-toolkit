@@ -12,7 +12,7 @@ export default defineConfig({
         version: '0.1.0',
         author: '趙子賢',
         description: {
-          zh: '臺南市政府第3代公文管理系統工具箱，提供許多快速輸入及實用功能。'
+          zh: '臺南市政府第3代公文管理系統工具箱，提供許多自動輸入及實用功能。'
         },
         icon: 'https://nodml.tainan.gov.tw/SPEED30/Content/images/favicon/favicon-32x32.png',
         match: ['https://nodml.tainan.gov.tw/*'],
