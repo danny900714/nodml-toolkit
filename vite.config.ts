@@ -19,8 +19,8 @@ export default defineConfig({
         homepage: 'https://github.com/danny900714/nodml-toolkit',
         match: ['https://nodml.tainan.gov.tw/*'],
         tag: ['utilities'],
-        updateURL: "https://github.com/danny900714/nodml-toolkit/releases/latest/download/wm-toolkit.meta.js",
-        downloadURL: "https://github.com/danny900714/nodml-toolkit/releases/latest/download/wm-toolkit.user.js",
+        updateURL: "https://github.com/danny900714/nodml-toolkit/releases/latest/download/nodml-toolkit.meta.js",
+        downloadURL: "https://github.com/danny900714/nodml-toolkit/releases/latest/download/nodml-toolkit.user.js",
         supportURL: 'https://github.com/danny900714/nodml-toolkit/issues'
       },
       build: {

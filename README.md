@@ -24,7 +24,7 @@
 
 點擊下面的下載連結，它將會帶你到 TamperMonkey 的腳本安裝頁面，點選安裝按鈕即可將「公文管理系統 工具包」新增到 TamperMonkey，如此便完稱安裝啦！
 
-下載連結: 
+下載連結: https://github.com/danny900714/nodml-toolkit/releases/latest/download/nodml-toolkit.user.js
 
 我們使用 GitHub Action 來建置我們的專案，如果你對此不滿意，你可以自己建構。我們擁抱開源軟體！
 
