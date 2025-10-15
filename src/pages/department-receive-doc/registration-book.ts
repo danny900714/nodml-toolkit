@@ -9,7 +9,6 @@ export function onReportDepartmentRegisterBook(body: HTMLDivElement) {
     for (let userItem of userListItems) {
         if (userItem.textContent === '張家齊') {
             (userItem as HTMLLIElement).click();
-            break;
         }
     }
 
