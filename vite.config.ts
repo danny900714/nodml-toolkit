@@ -17,6 +17,12 @@ export default defineConfig({
         icon: 'https://nodml.tainan.gov.tw/SPEED30/Content/images/favicon/favicon-32x32.png',
         match: ['https://nodml.tainan.gov.tw/*'],
       },
+      build: {
+        metaFileName: true,
+      },
     }),
   ],
+  build: {
+    minify: true,
+  },
 });
