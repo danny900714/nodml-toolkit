@@ -29,8 +29,11 @@ function handleApMainChange(records: MutationRecord[], _observer: MutationObserv
         for (const node of record.addedNodes) {
             if (node instanceof HTMLDivElement && node.id == 'inner-view') {
                 const form = node.querySelector('form');
-                if (form && form.action.startsWith('https://nodml.tainan.gov.tw/SPEED30/Inbound/Register/RegisterDepartmentalReceiveDoc')) {
+                if (!form) continue;
+                if (form.action.startsWith('https://nodml.tainan.gov.tw/SPEED30/Inbound/Register/RegisterDepartmentalReceiveDoc')) {
                     onDepartmentRecieveDocRegistrationOpen(node);
+                } else if (form.action.startsWith('https://nodml.tainan.gov.tw/SPEED30/Inbound/Report/ReportDepartmentRegisterBook')) {
+                    onReportDepartmentRegisterBook(node);
                 }
             }
         }
@@ -84,6 +87,26 @@ function onDepartmentRecieveDocRegistrationOpen(body: HTMLDivElement) {
         }
     })
     observer.observe(keepInputCheckbox, { attributeFilter: ['disabled'], attributeOldValue: true });
+}
+
+// 單位收文作業 > 收文報表列印 > 收文登記簿
+function onReportDepartmentRegisterBook(body: HTMLDivElement) {
+    // 收文類別 -> 紙本
+    const paperRadioButton = body.querySelector('#Paper')! as HTMLInputElement;
+    paperRadioButton.click();
+
+    // 收文人員 -> 張家齊
+    const userListItems = document.querySelectorAll('#CreateUserId_listbox > li');
+    for (let userItem of userListItems) {
+        if (userItem.textContent === '張家齊') {
+            (userItem as HTMLLIElement).click();
+            break;
+        }
+    }
+
+    // 分頁選項 -> 依承辦人分頁
+    const userPagingRadioButton = body.querySelector('#CaseHandlingDepartmentUserPaging')! as HTMLInputElement;
+    userPagingRadioButton.click();
 }
 
 // Monitor body change
