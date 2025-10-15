@@ -1,6 +1,6 @@
-# 公文管理系統 工具箱
+# 公文管理系統 工具包
 
-臺南市政府第3代公文管理系統工具箱，提供許多自動輸入及實用功能。
+臺南市政府第3代公文管理系統工具包，提供許多自動輸入及實用功能。
 
 ## 功能
 
@@ -12,7 +12,7 @@
 
 ### 在瀏覽器中安裝 TamperMonkey
 
-如果你曾經安裝 TamperMonkey，可以跳過此步驟直接安裝「公文管理系統 工具箱」。
+如果你曾經安裝 TamperMonkey，可以跳過此步驟直接安裝「公文管理系統 工具包」。
 
 點擊下方的圖片以安裝 TamperMonkey。
 
@@ -20,9 +20,9 @@
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | [![Download Tampermonkey in the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/HRs9MPufa1J1h5glNhut.png)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [![Get Tampermonkey from Microsoft Edge](icons/edge.png)](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd) |
 
-### 新增「公文管理系統 工具箱」到 TamperMonkey
+### 新增「公文管理系統 工具包」到 TamperMonkey
 
-點擊下面的下載連結，它將會帶你到 TamperMonkey 的腳本安裝頁面，點選安裝按鈕即可將「公文管理系統 工具箱」新增到 TamperMonkey，如此便完稱安裝啦！
+點擊下面的下載連結，它將會帶你到 TamperMonkey 的腳本安裝頁面，點選安裝按鈕即可將「公文管理系統 工具包」新增到 TamperMonkey，如此便完稱安裝啦！
 
 下載連結: 
 

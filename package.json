@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "description": "臺南市政府第3代公文管理系統工具包，提供許多自動輸入及實用功能。",
+  "author": "趙子賢 (https://github.com/danny900714)",
+  "homepage": "https://github.com/danny900714/nodml-toolkit",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
