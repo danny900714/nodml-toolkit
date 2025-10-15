@@ -16,7 +16,9 @@
 
 點擊下方的圖片以安裝 TamperMonkey。
 
-[![Download Tampermonkey in the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/HRs9MPufa1J1h5glNhut.png)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) [![Get Tampermonkey from Microsoft Edge](icons/edge.png)](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd)
+|                                                                                                           Chrome Web Store                                                                                                            |                                                                           Microsoft Edge Addons                                                                           |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [![Download Tampermonkey in the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/HRs9MPufa1J1h5glNhut.png)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [![Get Tampermonkey from Microsoft Edge](icons/edge.png)](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd) |
 
 ### 新增「公文管理系統 工具箱」到 TamperMonkey
 
