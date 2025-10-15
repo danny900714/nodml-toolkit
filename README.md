@@ -14,9 +14,9 @@
 
 如果你曾經安裝 TamperMonkey，可以跳過此步驟直接安裝「公文管理系統 工具箱」。
 
-[![Download Tampermonkey in the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+點擊下方的圖片以安裝 TamperMonkey。
 
-[![Get Tampermonkey from Microsoft Edge](icons/edge.png)](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd)
+[![Download Tampermonkey in the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/HRs9MPufa1J1h5glNhut.png)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) [![Get Tampermonkey from Microsoft Edge](icons/edge.png)](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd)
 
 ### 新增「公文管理系統 工具箱」到 TamperMonkey
 
@@ -28,4 +28,4 @@
 
 ## 授權
 
-此專案使用以下授權: MIT License
+此專案使用以下授權: [MIT License](LICENSE)
