@@ -23,6 +23,20 @@ function handleBodyChange(records: MutationRecord[], _observer: MutationObserver
     }
 }
 
+// Handle application main view change
+function handleApMainChange(records: MutationRecord[], _observer: MutationObserver) {
+    for (const record of records) {
+        for (const node of record.addedNodes) {
+            if (node instanceof HTMLDivElement && node.id == 'inner-view') {
+                const form = node.querySelector('form');
+                if (form && form.action.startsWith('https://nodml.tainan.gov.tw/SPEED30/Inbound/Register/RegisterDepartmentalReceiveDoc')) {
+                    onDepartmentRecieveDocRegistrationOpen(node);
+                }
+            }
+        }
+    }
+}
+
 // 郵件登陸 > 新增單筆
 function onInsertMailDocModalOpen(element: HTMLDivElement) {
     const employees = loadEmpoyeeData();
@@ -32,7 +46,7 @@ function onInsertMailDocModalOpen(element: HTMLDivElement) {
     commentInput.addEventListener('input', (e) => {
         const event = e as InputEvent;
         const input = event.target as HTMLInputElement;
-        
+
         let chineseInput = '';
         for (let i = 0; i < input.value.length; i++) {
             // Filter out ASCII characters
@@ -43,7 +57,7 @@ function onInsertMailDocModalOpen(element: HTMLDivElement) {
             // Check whether the chinese input matches the employess map
             if (chineseInput.length >= 3 && employees.has(chineseInput)) {
                 const employee = employees.get(chineseInput)!;
-                
+
                 // Select all the department fields based on the employee's department.
                 // Since there are multiple department selection lists that are hard to differentiate from each other,
                 // we then click all the matched list item.
@@ -58,7 +72,26 @@ function onInsertMailDocModalOpen(element: HTMLDivElement) {
     });
 }
 
+// 單位收文作業 > 收文作業 > 收文登錄
+function onDepartmentRecieveDocRegistrationOpen(body: HTMLDivElement) {
+    const keepInputCheckbox = body.querySelector('#KeepInputValue')! as HTMLInputElement;
+    const observer = new MutationObserver((records) => {
+        for (let record of records) {
+            if (!(record.target as HTMLInputElement).disabled && record.oldValue === '') {
+                // Document number is found and the form is ready for input
+                keepInputCheckbox.checked = false;
+            }
+        }
+    })
+    observer.observe(keepInputCheckbox, { attributeFilter: ['disabled'], attributeOldValue: true });
+}
+
+// Monitor body change
 const body = document.getElementsByTagName('body')[0];
-const config = { childList: true };
-const observer = new MutationObserver(handleBodyChange);
-observer.observe(body, config);
+const bodyObserver = new MutationObserver(handleBodyChange);
+bodyObserver.observe(body, { childList: true });
+
+// Monitor ap-main change
+const apMain = document.getElementById('ap-main')!
+const apMainObserver = new MutationObserver(handleApMainChange);
+apMainObserver.observe(apMain, { childList: true });
